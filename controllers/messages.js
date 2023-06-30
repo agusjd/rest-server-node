@@ -1,16 +1,25 @@
-const {response} = require('express')
+const {response,request} = require('express')
 
-const messagesPost = (req,res=response) =>{
+const Message = require('../models/message')
+
+const messagesPost = async (req,res=response) =>{
     const body = req.body;
+    const message = new Message(body)
 
+    await message.save();
     res.json({
-        msg:body
+        msg:message
     })
 }
 
-const messagesGet = (req,res=response) =>{
+const messagesGet = async (req,res=response) =>{
+    const {limit = 5, from = 0} = req.query
+    const messages = await Message.find()
+        .limit(Number(limit))
+        .skip(Number(from))
+
     res.json({
-        msg: "prueba"
+        messages
     })
 }
 

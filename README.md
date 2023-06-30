@@ -17,6 +17,7 @@ Si deseas ejecutar el Portfolio CV en tu entorno local, sigue estos pasos:
 3. Abre una terminal en la carpeta raíz del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 ### `npm install`
 4.Crea un archivo de configuración .env en la carpeta raíz del proyecto y proporciona la configuración necesaria, como las credenciales de la base de datos y la configuración del servidor.
+
 5.Ejecuta el siguiente comando para iniciar el servidor:
 ### `nodemon app.js`
 6.Accede a http://localhost:3000 en tu navegador para ver el Portfolio CV en tu entorno local.

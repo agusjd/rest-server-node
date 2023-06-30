@@ -13,7 +13,7 @@ const messagesPost = async (req,res=response) =>{
 }
 
 const messagesGet = async (req,res=response) =>{
-    const {limit = 5, from = 0} = req.query
+    const {limit = 10, from = 0} = req.query
     const messages = await Message.find()
         .limit(Number(limit))
         .skip(Number(from))

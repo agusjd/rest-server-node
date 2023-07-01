@@ -7,7 +7,7 @@ El proyecto es una portfolio web en el que se trata de mostrar los conocimientos
 
 ## Endpoints
 
-Url verificada en postman:
+Url para la verificacion de los endpoints en Postman: https://documenter.getpostman.com/view/17094074/2s93zB6hcY
 
 ## Configuracion del entorno local
 
@@ -33,6 +33,6 @@ El Portfolio CV se ha desarrollado utilizando las siguientes tecnologías:
 - Mongoose: Modelado de objetos para facilitar la interacción con bases de datos MongoDB.
 
 
-
 ## back-cv-app-tpo
+## Grupo 35, Julian Aguero y Agustin Diaz.
 >>>>>>> main

@@ -22,6 +22,9 @@ Si deseas ejecutar el Portfolio CV en tu entorno local, sigue estos pasos:
 ### `nodemon app.js`
 6.Accede a http://localhost:3000 en tu navegador para ver el Portfolio CV en tu entorno local.
 
+## Base de datos
+- Se utilizo la base de datos no relacional de MongoDB, levantando un servidor  con la aplicacion nativa de MongoDBCompass
+
 ## Tecnologias utilizadas
 
 El Portfolio CV se ha desarrollado utilizando las siguientes tecnologías:

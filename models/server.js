@@ -21,9 +21,9 @@ class Server {
   }
 
   routes() {
-    this.app.use("/message", require("../routes/message"));
-    this.app.use('/user', require('../routes/user'))
-    this.app.use('/login', require('../routes/auth'));
+    this.app.use("/api/message", require("../routes/message"));
+    this.app.use('/api/user', require('../routes/user'))
+    this.app.use('/api/login', require('../routes/auth'));
   }
   listen() {
     this.app.listen(this.port, () => {
